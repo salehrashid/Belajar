@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    -webkit-animation: colorchange 60s infinite; 
+    animation: colorchange 60s infinite;
+}
+@-webkit-keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}
+@keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}   
+</style>
+</head>
+<body>
+</body>
+</html>
+<html>
+	<head>
+  		<meta http-equiv="refresh" content="">
+  		<title>table HTML pertama</title>	
+  		<style>
+	table
+	th,
+	td {
+		border: 3px solid black;
+		border-collapse: collapse;
+	}	
+
+	th {
+		height:50px;
+	}		
+
+
+	th,
+	td{
+		padding: 15px;
+		text-align: center;
+	}
+</style>
+</head>
+
+<body>
+<table border="3">
+	<tr style="background-color: green">
+		<th>nama</th>
+		<th>kota</th>
+		<th>golongan darah</th>
+	</tr>	
+	<tr>
+		<td>orang</td>
+		<td>jawa</td>
+		<td>O</td>
+	</tr>
+	<tr style="background-color: yellow">
+		<td>orang</td>
+		<td>jakarta</td>
+		<td style="background-color: red;">AB</td>
+	</tr>
+</table>
+
+
+
+<table border="3" cellspacing="3" cellpadding="3">
+	<tr>
+		<th>language</th>
+		<th>framework</th>
+	</tr>
+	<tr>
+		<td rowspan="2">PHP</td>
+		<td>laravel</td>
+	</tr>
+	<tr>
+		<td>codeigniter</td>
+	</tr>
+	<tr>
+		<td rowspan="2">ruby</td>
+		<td>ruby on rails</td>
+	</tr>
+	<tr>
+		<td>sinatra</td>
+	</tr>
+</table>
+
+
+
+<table  border="3" cellspacing="10" cellpadding="10">
+	<tr>
+		<td>1</td>
+		<td>2</td>
+	</tr>	
+	<tr>	
+		<td style="padding-left:15px" colspan="2">3</td> 
+	</tr>	
+</table>
+
+
+
+<table border="9" cellspacing="8">
+	<tr>
+		<th style="color:white;background-color:#0a3c3d"colspan="7">08 agustus 2021</th>
+	</tr>
+	<tr>
+		<th style="color:white;background-color:red; padding:5px">minggu</th>
+		<th style="color:white;background-color:#0378a6">senin</th>
+		<th style="color:white;background-color:#0378a6">selasa</th>
+		<th style="color:white;background-color:#0378a6">rabu</th>
+		<th style="color:white;background-color:#0378a6">kamis</th>
+		<th style="color:white;background-color:green">jum'at</th>
+		<th style="color:white;background-color:#0378a6">sabtu</th>
+	</tr>	
+	<tr>
+		<td style="color:red">1 <br>wage</td>
+    	<td>2<br>kliwon</td>
+    	<td>3<br>legi</td>
+    	<td>4<br>pahing</td>
+    	<td>5<br>pon</td>
+    	<td style="color:green">6<br>wage</td>
+    	<td>7<br>kliwon</td>
+    </tr>	
+    <tr>
+    	<td style="color:red">8<br>legi</td>
+    	<td>9<br>pahing</td>
+    	<td style="color:red">10<br>pon</td>
+    	<td>11<br>wage</td>
+    	<td>12<br>kliwon</td>
+    	<td style="color:green">13<br>legi</td>
+    	<td>14<br>pahing</td>
+    </tr>
+    <tr>	
+    	<td style="color:red">15<br>pon</td>
+    	<td>16<br>wage</td>
+    	<td style="color:red">17<br>kliwon</td>
+    	<td>18<br>legi</td>
+    	<td>19<br>pahing</td>
+    	<td style="color:green">20<br>pon</td>
+    	<td>21<br>wage</td>
+    </tr>	
+    <tr>
+    	<td style="color:red">22<br>kliwon</td>
+    	<td>23<br>legi</td>
+    	<td>24<br>pahing</td>
+    	<td>25<br>pon</td>
+    	<td>26<br>wage</td>
+    	<td style="color:green">27<br>kliwon</td>
+    	<td>28<br>legi</td>
+    </tr>	
+    <tr>
+    	<td style="color:red">29<br>pahing</td>	
+    	<td>30<br>pon</td>
+    	<td>31<br>wage</td>
+    <tr>
+    	<td style="color:red"colspan="7">10 Agustus: Tahun Baru Islam 1443H</td>
+    <tr>
+    	<td style="color:red"colspan="7">17 Agustus: HUT Kemerdekaan Indonesia</td>
+    </tr>	
+</table>
+ </body>
+</html>
+
